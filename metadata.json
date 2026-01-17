@@ -1,0 +1,7 @@
+{
+  "name": "【🐴】韩语句模练习",
+  "description": "An AI-powered Korean language learning platform designed to bridge the gap between stashing linguistic materials and actual oral output through structured learning and natural shadowing sessions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
