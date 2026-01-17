@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { MaterialType, SentenceTemplate, WordChunk, ShadowingLine } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GOOGLE_API_KEY });
 
 // Audio Global Manager
 let activeAudioSource: AudioBufferSourceNode | null = null;
